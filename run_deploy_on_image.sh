@@ -2,6 +2,8 @@
 
 #source env_for_project.sh $1
 
+mkdir -p records
+
 export PROJECT_IMAGE_TO="172.20.250.99:5000/li3ds/deploy:latest"
 
 echo "Run deploy project from: ${GREEN}$PROJECT_IMAGE_TO"
